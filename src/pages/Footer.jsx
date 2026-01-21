@@ -38,10 +38,9 @@ export default function Footer() {
             <div>
               <h4 className="text-sm font-semibold text-white mb-4">Social</h4>
               <ul className="space-y-3 text-sm">
-                <li className="hover:text-white transition">Instagram</li>
                 <li className="hover:text-white transition">Twitter</li>
-                <li className="hover:text-white transition">Behance</li>
-                <li className="hover:text-white transition">Dribbble</li>
+                <li className="hover:text-white transition">Instagram</li>
+                <li className="hover:text-white transition">Facebook</li>
               </ul>
             </div>
           </div>

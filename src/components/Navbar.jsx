@@ -10,11 +10,20 @@ export default function Navbar() {
       {/* NAVBAR */}
       <nav className="w-full h-16 grid grid-cols-2 top-0 z-50">
         {/* LEFT */}
-        <div className="bg-[#1B1F24] flex items-center px-6">
-          <span className="text-xl font-bold text-white pl-6">BLACK</span>
-          <span className="text-xl font-bold text-yellow-600 pl-2">
-            THUMBLER.
+        {/* LEFT */}
+        <div className="bg-[#1B1F24] flex items-center px-4 sm:px-6">
+          {/* MOBILE: INISIAL */}
+          <span className="block sm:hidden text-xl font-bold text-yellow-600 tracking-widest">
+            BT
           </span>
+
+          {/* DESKTOP: FULL BRAND */}
+          <div className="hidden sm:flex items-center">
+            <span className="text-xl font-bold text-white">BLACK</span>
+            <span className="text-xl font-bold text-yellow-600 ml-2">
+              THUMBLER.
+            </span>
+          </div>
         </div>
 
         {/* RIGHT */}
